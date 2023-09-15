@@ -53,6 +53,6 @@ Declaring an empty variable and passing the value in the *_tfvars file
 
 variable "city" {}
 
-output "city_name" {'
+output "city_name" {
     value = "Name of the city is ${var.city}"
 }
