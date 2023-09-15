@@ -26,7 +26,7 @@ variable "sample_list" {
     default = [
         "DevOps",
         55,
-        "Prathith"
+        "Prathith",
         "04125AMCET"
     ]
 }
