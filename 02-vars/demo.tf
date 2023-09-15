@@ -45,6 +45,6 @@ variable "sample_maps" {
 }
 
 # Printing a map variable
-output "sample_map_op" {
+output "sample_maps_op" {
     value = "${var.sample_map["batch"]} has great scope of opportunites and this is completely ${var.sample_map["Mode"]} Training"
 }
