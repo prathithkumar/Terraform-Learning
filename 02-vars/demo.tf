@@ -65,4 +65,8 @@ output "state_name" {
     value = var.state
 }
 
+variable "country" {}
 
+variable "country_name" {
+    value = "Name of our country is ${var.country}"
+}
