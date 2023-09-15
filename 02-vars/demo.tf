@@ -13,3 +13,10 @@ output "ops" {
     value = "My first msg is ${var.sample}"
 }
 
+variable "number" {
+     default = 100
+}
+
+output "op_number" {
+    value = var.number
+}
