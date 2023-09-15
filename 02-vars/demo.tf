@@ -56,3 +56,13 @@ variable "city" {}
 output "city_name" {
     value = "Name of the city is ${var.city}"
 }
+
+# Didnt declare the variable
+
+variable "state" {}
+
+output "state_name" {
+    value = var.state_name
+}
+
+
