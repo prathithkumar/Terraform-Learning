@@ -25,7 +25,7 @@ output "op_number" {
 variable "sample_list" {
     default = [
         "DevOps",
-        55
+        55,
         "Prathith"
         "04125AMCET"
     ]
