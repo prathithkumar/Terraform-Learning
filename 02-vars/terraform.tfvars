@@ -1,2 +1,3 @@
-city = "Kakinada"
-state = "AP"
+city      = "Kakinada"
+state     = "AP"
+fav_cloud = "GCP"
