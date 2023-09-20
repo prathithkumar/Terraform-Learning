@@ -73,5 +73,6 @@ output "country_name" {
 
 variable "fav_cloud" {}
 
-output "fav_cloud_op"
+output "fav_cloud_op" {
     value = "My favorite cloud is ${var.fav_cloud}"
+}
