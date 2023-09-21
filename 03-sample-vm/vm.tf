@@ -6,3 +6,7 @@ resource "aws_instance" "web" {
     Name = "Terraform-web-Instance"
   }
 }
+
+output "private_ip_address" {
+    value = aws_instance.app.private_dns
+}
