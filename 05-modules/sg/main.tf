@@ -1,6 +1,6 @@
 # Creates Security Group 
 
-resource "aws_security_group" "allow_ssh" {
+resource "aws_security_group" "allows_ssh" {
   name        = "allows_ssh"
   description = "Allows SSH inbound traffic"
 
