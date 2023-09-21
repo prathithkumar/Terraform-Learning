@@ -9,4 +9,4 @@ resource "aws_instance" "moapp" {
     }
 }
 
-variable "sg" {}
+variable "sg" {}           #Declare the empty Variable of the value we wish to pass and use it
