@@ -21,6 +21,11 @@ resource "aws_security_group" "allow_ssh" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "allow_ssh"
   }
+}
+
+# step1 : Declare the info that you wish to share as Output
+output "sgid" {
+    value = aws_security_group.allow_ssh.id
 }
