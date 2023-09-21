@@ -1,6 +1,7 @@
 resource "aws_instance" "app" {
-  ami           = "ami-0f5dbf035a6aca15c"
-  instance_type = "t3.medium"
+  ami                       = "ami-0f5dbf035a6aca15c"
+  instance_type             = "t3.medium"
+  vpc_security_group_ids    = [aws_security_group.allow_ssh.id]
 
   tags = {
     Name = "Terraform-Instance"
