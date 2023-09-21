@@ -9,4 +9,4 @@ resource "aws_instance" "moapp" {
     }
 }
 
-variable "sg"
+variable "sg" {}
