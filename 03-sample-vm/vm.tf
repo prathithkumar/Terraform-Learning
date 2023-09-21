@@ -3,7 +3,7 @@ resource "aws_instance" "app" {
   instance_type = "t3.medium"
 
   tags = {
-    Name = "Terraform-web-Instance"
+    Name = "Terraform-Instance"
   }
 }
 
